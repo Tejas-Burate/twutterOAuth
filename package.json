@@ -1,0 +1,22 @@
+{
+  "name": "@superfaceai/twitter-demo",
+  "version": "1.0.0",
+  "author": "Superface <hello@superface.ai>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node get-tokens.js > tokens.json"
+  },
+  "dependencies": {
+    "@superfaceai/one-sdk": "^2.0.0",
+    "@superfaceai/passport-twitter-oauth2": "^1.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "prettier": "^2.7.1"
+  }
+}
